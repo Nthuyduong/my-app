@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: BeyondTheMountains;
+    src: url("../../../font/beyond_the_mountains.ttf");
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+}
+.welcome-inner{
+    width: 600px;
+    padding: 40px 80px;
+}
+.logo{
+    font-size: 60px;
+    font-family: BeyondTheMountains;
+}
+.w-100{
+    width: 100%;
+}
+.txt-cen{
+    text-align: center;
+}
+.txt-sm{
+    font-size: 14px;
+}
+.btn{
+    padding:8px 0;
+    border-radius:5px;
+    color:#fff;
+}
+.mb-1{
+    margin-bottom:8px;
+}
+.mt-3{
+    margin-top:24px;
+}
+.btn-se{
+    background-color:#000;
+}
+.btn-pr{
+    background-color: #3b4477;
+    border:none;
+}
+#txtUsername, #txtPassword{
+    outline: none;
+    padding:8px 0px;
+
+}
+
